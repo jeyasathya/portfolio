@@ -14,42 +14,82 @@
     text-align: right;
     color: #000000;
 }*/
+
 div{
     margin: 5px;
     border: 2px solid red;
-    min-height: 10vh;
+
 }
-.myworks{ 
+.ctn{
+    width: 90%;
+    margin: auto;
+}
+.post{
+    width: 40%;
+}
+
+/*.myworks{ 
     display: flex;
     min-height: ;
-    /*position: absolute;*/
+    /*position: absolute;
     width: 3.563rem;
     left: 53.5rem;
 } 
 .myblog{   
     display: flex;
-    /*position: absolute;*/
+    /*position: absolute;
     width: 6.625rem;
     left: 55.125rem; 
 }
 .mycontacts{
     display: flex;
-    /*position: absolute;*/
+    /*position: absolute;
     width: 4.438rem;
     left: 63.813rem;
-}
+}*/
 .navbar{
     min-height: 6vh;
+    display: flex;
+    justify-content: flex-end;
 }
 .aboutmy{
     min-height: 40vh;
 }
-.recentact{
+.recent-post{
+    display: flex;
+    justify-content: space-evenly;
     min-height: 30vh;
 }
-.workfeatured{
+.featured-work{
     min-height: 60vh;
 }
 .footer{
     min-height: 20vh;
+}
+.post-header{
+    font-size: 26px;
+    font-weight: bold;
+}
+.post-content{
+    font-size: 16px;
+}
+.post-date{
+    margin-right: 15px;
+}
+.work{
+    display: flex;
+}
+.work-img{
+    height: 180px;
+    width: 246px;
+    border-radius: 6px;
+
+}
+.work-head{
+    font-size: 30px;
+    font-weight: bold;
+}
+.work-year{
+    font-size: 18px;
+    margin-right: 15px;
 }
