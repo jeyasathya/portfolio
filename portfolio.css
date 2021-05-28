@@ -1,4 +1,4 @@
-.myhead{
+/*.navbar{
     display: flex;
     justify-content:space-around;
     text-align: end;
@@ -7,19 +7,21 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1.813rem;
-    /*letter-spacing: 0rem;*/
+    /*letter-spacing: 0rem;
     height: 2.688rem;
     top: 1.688rem;
     position: absolute;
     text-align: right;
     color: #000000;
-}
+}*/
 div{
     margin: 5px;
-   
+    border: 2px solid red;
+    min-height: 10vh;
 }
 .myworks{ 
     display: flex;
+    min-height: ;
     /*position: absolute;*/
     width: 3.563rem;
     left: 53.5rem;
@@ -35,4 +37,19 @@ div{
     /*position: absolute;*/
     width: 4.438rem;
     left: 63.813rem;
+}
+.navbar{
+    min-height: 6vh;
+}
+.aboutmy{
+    min-height: 40vh;
+}
+.recentact{
+    min-height: 30vh;
+}
+.workfeatured{
+    min-height: 60vh;
+}
+.footer{
+    min-height: 20vh;
 }
