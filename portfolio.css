@@ -1,25 +1,10 @@
-/*.navbar{
-    display: flex;
-    justify-content:space-around;
-    text-align: end;
-    font-family: Heebo;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.813rem;
-    /*letter-spacing: 0rem;
-    height: 2.688rem;
-    top: 1.688rem;
-    position: absolute;
-    text-align: right;
-    color: #000000;
-}*/
 
+body{
+    font-family: 'Heebo', sans-serif;
+}
 div{
     margin: 5px;
-    border: 2px solid red;
-
-}
+    }
 .ctn{
     width: 90%;
     margin: auto;
@@ -28,32 +13,28 @@ div{
     width: 40%;
 }
 
-/*.myworks{ 
-    display: flex;
-    min-height: ;
-    /*position: absolute;
-    width: 3.563rem;
-    left: 53.5rem;
-} 
-.myblog{   
-    display: flex;
-    /*position: absolute;
-    width: 6.625rem;
-    left: 55.125rem; 
-}
-.mycontacts{
-    display: flex;
-    /*position: absolute;
-    width: 4.438rem;
-    left: 63.813rem;
-}*/
 .navbar{
     min-height: 6vh;
     display: flex;
     justify-content: flex-end;
+    font-weight: 600;
+    font-size:20px;
 }
-.aboutmy{
+.tab{
+    margin-right: 15px;
+    text-transform: capitalize;
+}
+.intro{
+    display: flex;
+    margin: auto;
+    width: 80%;
     min-height: 40vh;
+}
+.content{
+    width: 50%;
+}
+.cover{
+    width:40%;
 }
 .recent-post{
     display: flex;
