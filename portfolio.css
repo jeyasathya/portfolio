@@ -1,76 +1,92 @@
+body {
+  font-family: "Heebo", sans-serif;
+}
+div {
+  margin: 5px;
+}
+.ctn {
+  width: 90%;
+  margin: auto;
+}
+.post {
+  width: 40%;
+}
 
-body{
-    font-family: 'Heebo', sans-serif;
+.navbar {
+  min-height: 6vh;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 600;
+  font-size: 20px;
 }
-div{
-    margin: 5px;
-    }
-.ctn{
-    width: 90%;
-    margin: auto;
+.tab {
+  margin-right: 15px;
+  text-transform: capitalize;
 }
-.post{
-    width: 40%;
+.intro {
+  display: flex;
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  min-height: 40vh;
+}
+.content {
+  width: 60%;
+  color: #21243d;
+}
+.content-title {
+  font-size: 44px;
+  font-weight: 700;
 }
 
-.navbar{
-    min-height: 6vh;
-    display: flex;
-    justify-content: flex-end;
-    font-weight: 600;
-    font-size:20px;
+.download {
+  background: #ff6464;
+  color: #ffffff;
+  padding: 8px;
+  /* margin: 50px; */
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
 }
-.tab{
-    margin-right: 15px;
-    text-transform: capitalize;
-}
-.intro{
-    display: flex;
-    margin: auto;
-    width: 80%;
-    min-height: 40vh;
-}
-.content{
-    width: 50%;
-}
-.cover{
-    width:40%;
-}
-.recent-post{
-    display: flex;
-    justify-content: space-evenly;
-    min-height: 30vh;
-}
-.featured-work{
-    min-height: 60vh;
-}
-.footer{
-    min-height: 20vh;
-}
-.post-header{
-    font-size: 26px;
-    font-weight: bold;
-}
-.post-content{
-    font-size: 16px;
-}
-.post-date{
-    margin-right: 15px;
-}
-.work{
-    display: flex;
-}
-.work-img{
-    height: 180px;
-    width: 246px;
-    border-radius: 6px;
 
+. .cover {
+  width: 20%;
+  margin-left: 80px;
 }
-.work-head{
-    font-size: 30px;
-    font-weight: bold;
+.recent-post {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 30vh;
 }
-.work-year{
-    font-size: 18px;
-    margin-right: 15px;
+.featured-work {
+  min-height: 60vh;
+}
+.footer {
+  min-height: 20vh;
+}
+.post-header {
+  font-size: 26px;
+  font-weight: bold;
+}
+.post-content {
+  font-size: 16px;
+}
+.post-date {
+  margin-right: 15px;
+}
+.work {
+  display: flex;
+}
+.work-img {
+  height: 180px;
+  width: 246px;
+  border-radius: 6px;
+}
+.work-head {
+  font-size: 30px;
+  font-weight: bold;
+}
+.work-year {
+  font-size: 18px;
+  margin-right: 15px;
 }
