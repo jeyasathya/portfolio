@@ -1,5 +1,11 @@
 body {
   font-family: "Heebo", sans-serif;
+  height: 2041px;
+  width: 1152px;
+  left: -2228px;
+  top: -1084px;
+  border-radius: 0px;
+
 }
 /* div {
   margin: 5px;
@@ -25,7 +31,7 @@ body {
 }
 .intro {
   display: flex;
-  margin: auto;
+  margin-left: 148px;
   margin-top: 80px;
   width: 80%;
   min-height: 40vh;
@@ -33,6 +39,7 @@ body {
 .content {
   width: 60%;
   color: #21243d;
+  /* margin-left: 148px; */
 }
 .content-title {
   font-size: 44px;
@@ -53,37 +60,50 @@ body {
   width: 20%;
   margin-left: 80px;
 }
-/* .recent-post-head{
-  display: flex;
-  justify-content: space-around;
+
+.recent-post {
+  /* display: flex;
+  justify-content: space-evenly; */
+  margin: auto;
   width: 1152px;
   height: 396px;
-  margin: auto;
   margin-top: 40px;
   background: #EDF7FA;
 }
-.rst-p{
-width: 129px;
-height: 60px;
-font-family: Heebo;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 60px;
-display: flex;
-align-items: flex-end;
-color: #21243D;
-
-} */
-.recent-post {
+.recent-post-head{
   display: flex;
   justify-content: space-evenly;
-  margin: auto;
-  width: 1152px;
-  height: 396px;
-  margin: auto;
-  margin-top: 40px;
-  background: #EDF7FA;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.rst-p{
+  display: flex;
+  flex: 1;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 148px;
+  padding-top: 5px; 
+  padding-bottom: 0px;
+} 
+.view-all{
+  font-family: Heebo;
+  width: 208px;
+  height: 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  margin-right: 148px;
+  margin-top: 15px;
+  color: #00A8CC;
+
+}
+.recent-post-cnt{
+  display: flex;
+  justify-content: space-between;
 }
 .post{
   width: 418px;
@@ -91,7 +111,7 @@ color: #21243D;
   /* left: 148px;
   top: 664px;  */
   margin: auto;
-  margin-top: 60px;
+  margin-top: 10px;
   background: #FFFFFF;
   box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
   border-radius: 4px;
@@ -149,6 +169,7 @@ color: #21243D;
 .work {
   display: flex;
   margin-top: 25px;
+  margin-left: 148px;
   padding-bottom: 15px;
   border-bottom: 1px solid #E0E0E0;;
 }
@@ -185,8 +206,8 @@ color: #21243D;
 .work.ctn{
   width: 594px;
   height: 93px;
-  left: 410px;
-  top: 1188px;
+  margin-left: 410px;
+ /* top: 1188px; */
   font-family: Heebo;
   font-style: normal;
   font-weight: normal;
